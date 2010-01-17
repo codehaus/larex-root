@@ -108,11 +108,6 @@
             <name>Larex Snapshots Repository</name>
             <url>dav:https://dav.codehaus.org/snapshots.repository/larex/</url>
         </snapshotRepository>
-        <site>
-            <id>larex-website</id>
-            <name>Larex Web Site</name>
-            <url>dav:https://dav.codehaus.org/larex/</url>
-        </site>
     </distributionManagement>
 
 </project>
