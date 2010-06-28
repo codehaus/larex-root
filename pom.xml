@@ -65,9 +65,8 @@
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
-                    <tagBase>https://svn.codehaus.org/larex/${artifactId}/tags</tagBase>
-                    <goals>deploy</goals>
                     <preparationGoals>clean install</preparationGoals>
+                    <goals>deploy</goals>
                     <mavenExecutorId>forked-path</mavenExecutorId>
                 </configuration>
             </plugin>
@@ -122,7 +121,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
-                    <version>2.0-beta-9</version>
+                    <version>2.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -156,9 +155,9 @@
     <dependencyManagement />
 
     <scm>
-        <connection>scm:svn:http://svn.codehaus.org/larex/larex-root/trunk</connection>
-        <developerConnection>scm:svn:https://svn.codehaus.org/larex/larex-root/trunk</developerConnection>
-        <url>http://svn.larex.codehaus.org/browse/larex/larex-root/trunk</url>
+        <connection>scm:git:git://git.codehaus.org/larex-root.git</connection>
+        <developerConnection>scm:git:ssh://git@git.codehaus.org/larex-root.git</developerConnection>
+        <url>http://git.codehaus.org/gitweb.cgi?p=larex-root.git</url>
     </scm>
 
     <issueManagement>
